@@ -1,0 +1,91 @@
+body {
+background-color: snow;
+font-family: "Arvo", serif;
+}
+
+figure {
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+    vertical-align: middle;
+}
+
+figcaption {
+    width: 300px;
+}
+img {
+    float: left;
+}
+
+.circle {
+    width: 35px;
+	height: 35px; 
+	background: #807878 ; 
+	-moz-border-radius: 40px; 
+	-webkit-border-radius: 40px; 
+	border-radius: 40px;
+	opacity: 0.80;
+}
+.circle:hover {
+    background: #f42525;
+}
+
+#info {
+    padding-left: 300px;
+}
+#epaule {
+    position: absolute;
+    padding-top: 90px;
+    z-index: 55;    
+}
+
+#coude {
+    position: absolute;
+	padding-top: 165px;
+	padding-left: 110px;
+}
+
+#poignet {
+    position: absolute;
+	margin-top: 220px;
+	margin-left: -5px;
+	z-index: 56;
+}
+
+#genou {
+    position: absolute;
+	padding-top: 350px;
+	padding-left: 75px;
+}
+
+#cheville {
+    position: absolute;
+	padding-top: 450px;
+	padding-left: 30px;
+}
+
+#hanche {
+    position: absolute;
+	padding-top: 220px;
+	padding-left: 80px;
+	z-index: 51;
+}
+
+#footer { /*bandeau footer*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #eacdcd;
+}
+
+
+.copym {
+    position: fixed;
+    bottom: 160px;
+    right: 10px;
+    font-family:  "Arvo", serif;
+    text-shadow: 2px 2px 2px black
+    color:black;
